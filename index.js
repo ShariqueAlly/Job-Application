@@ -7,7 +7,7 @@ app.use(express.json());
 
 
 mongoose
-.connect("mongodb://127.0.0.1:27017/jobapp")
+.connect("mongodb+srv://shariqueali4765:S2wYVwmzPTmGHDrL@cluster0.ot0dsdq.mongodb.net/")
 .then(()=>console.log(`Db connected successfully`))
 .catch((err)=>console.log(`Error connecting db`, err))
 
